@@ -1,0 +1,8 @@
+name: Auto Rebase
+description: Automatically rebases pull requests that are out-of-date with the target branch
+branding:
+  icon: "git-merge"
+  color: "blue"
+runs:
+  using: "node24"
+  main: "dist/index.js"

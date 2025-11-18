@@ -1,0 +1,22 @@
+{
+  "name": "auto-rebase",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "files": [
+    "action.yml",
+    "dist"
+  ],
+  "author": {
+    "name": "Stautvis",
+    "email": "t.steponavicius@icloud.com",
+    "url": "https://github.com/stautvis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stautvis/auto-rebase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stautvis/auto-rebase/issues"
+  },
+  "homepage": "https://github.com/Stautvis/auto-rebase#readme"
+}
