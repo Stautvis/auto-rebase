@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/Stautvis/auto-rebase/issues"
   },
-  "homepage": "https://github.com/Stautvis/auto-rebase#readme"
+  "homepage": "https://github.com/Stautvis/auto-rebase#readme",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node24 --outfile=dist/index.js --external:@actions/github"
+  },
+  "devDependencies": {
+    "@actions/github": "^6.0.1",
+    "@types/node": "^24.10.1",
+    "esbuild": "^0.27.0",
+    "typescript": "^5.9.3"
+  }
 }
