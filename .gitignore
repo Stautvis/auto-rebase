@@ -4,3 +4,6 @@ Thumbs.db
 
 # Node.js modules
 node_modules/
+
+# TypeScript output
+dist/
