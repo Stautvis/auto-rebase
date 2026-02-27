@@ -1,0 +1,13 @@
+name: Debug
+on: push
+
+jobs:
+  debug:
+    name: Debug
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v6.0.2
+
+      - name: Auto-rebase
+        uses: ./
