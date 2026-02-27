@@ -1,0 +1,6 @@
+name: "Auto Rebase"
+description: "A GitHub Action to automatically rebase your pull requests"
+
+runs:
+  using: node24
+  main: "dist/index.js"
