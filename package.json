@@ -1,0 +1,18 @@
+{
+  "name": "auto-rebase",
+  "description": "A GitHub Action to automatically rebase your pull requests",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Stautvis/auto-rebase#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stautvis/auto-rebase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stautvis/auto-rebase/issues"
+  },
+  "author": {
+    "name": "Stautvis",
+    "email": "tautvydas.steponavicius@icloud.com",
+    "url": "https://github.com/Stautvis"
+  }
+}
