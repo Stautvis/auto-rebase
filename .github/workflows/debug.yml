@@ -9,5 +9,11 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v6.0.2
 
+      - name: Install Node.js packages
+        run: npm install
+
+      - name: Build TypeScript code
+        run: npm run build
+
       - name: Auto-rebase
         uses: ./
